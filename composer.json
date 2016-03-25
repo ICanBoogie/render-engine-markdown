@@ -1,0 +1,31 @@
+{
+	"name": "icanboogie/render-engine-markdown",
+	"type": "library",
+	"description": "A Markdown render engine for icanboogie/render.",
+	"keywords": [ "markdown", "render" ],
+	"homepage": "http://icanboogie.org/",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Olivier Laviale",
+			"email": "olivier.laviale@gmail.com",
+			"homepage": "http://www.weirdog.com/",
+			"role" : "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/ICanBoogie/render-engine-markdown/issues",
+		"source": "https://github.com/ICanBoogie/render-engine-markdown"
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.5.0",
+		"icanboogie/render-engine-markdown": "^2.3",
+		"erusev/parsedown": "^1.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"ICanBoogie\\Render\\": "lib/"
+		}
+	}
+}
