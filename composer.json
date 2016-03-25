@@ -20,7 +20,7 @@
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.5.0",
-		"icanboogie/render": "^2.3",
+		"icanboogie/render": "^0.5",
 		"erusev/parsedown": "^1.6"
 	},
 	"autoload": {
