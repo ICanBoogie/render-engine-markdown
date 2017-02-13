@@ -14,6 +14,6 @@ class TestIntegration extends \PHPUnit_Framework_TestCase
 
 		]);
 
-		$this->assertSame("<h1>Hello!</h1>", $html);
+		$this->assertSame('<h1 id="hello"><a class="anchor" href="#hello" aria-hidden="true"></a>Hello!</h1>', $html);
 	}
 }
