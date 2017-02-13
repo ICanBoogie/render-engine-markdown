@@ -9,6 +9,8 @@
 
 A Markdown render engine for [ICanBoogie/Render].
 
+If you use the package together with [ICanBoogie][], the engine is registered automatically.
+
 
 
 
@@ -88,5 +90,5 @@ The package is continuously tested by [Travis CI](http://about.travis-ci.org/).
 
 
 [documentation]:               https://icanboogie.org/api/render-engine-markdown/master/
-[ICanBoogie]:                  https://github.com/ICanBoogie/ICanBoogie
+[ICanBoogie]:                  https://icanboogie.org
 [ICanBoogie/Render]:           https://github.com/ICanBoogie/Render

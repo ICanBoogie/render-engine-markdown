@@ -2,7 +2,10 @@
 	"name": "icanboogie/render-engine-markdown",
 	"type": "library",
 	"description": "A Markdown render engine for icanboogie/render.",
-	"keywords": [ "markdown", "render" ],
+	"keywords": [
+		"markdown",
+		"render"
+	],
 	"homepage": "https://icanboogie.org/",
 	"license": "BSD-3-Clause",
 	"authors": [
@@ -10,7 +13,7 @@
 			"name": "Olivier Laviale",
 			"email": "olivier.laviale@gmail.com",
 			"homepage": "https://olvlvl.com/",
-			"role" : "Developer"
+			"role": "Developer"
 		}
 	],
 	"support": {
@@ -25,9 +28,25 @@
 		"icanboogie/render": "^0.6",
 		"erusev/parsedown": "^1.6"
 	},
+	"require-dev": {
+		"icanboogie/bind-render": "^0.6"
+	},
 	"autoload": {
 		"psr-4": {
 			"ICanBoogie\\Render\\": "lib/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/Application.php"
+		]
+	},
+	"scripts": {
+		"post-autoload-dump": "ICanBoogie\\Autoconfig\\Hooks::on_autoload_dump"
+	},
+	"extra": {
+		"icanboogie": {
+			"config-path": "config"
 		}
 	}
 }
