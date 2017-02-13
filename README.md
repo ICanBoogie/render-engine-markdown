@@ -87,6 +87,6 @@ The package is continuously tested by [Travis CI](http://about.travis-ci.org/).
 
 
 
-[documentation]:               http://api.icanboogie.org/render-engine-markdown/latest/
+[documentation]:               https://icanboogie.org/api/render-engine-markdown/master/
 [ICanBoogie]:                  https://github.com/ICanBoogie/ICanBoogie
 [ICanBoogie/Render]:           https://github.com/ICanBoogie/Render
