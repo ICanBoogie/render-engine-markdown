@@ -1,10 +1,10 @@
 # Render engine: Markdown
 
 [![Release](https://img.shields.io/packagist/v/icanboogie/render-engine-markdown.svg)](https://github.com/ICanBoogie/render-engine-markdown/releases)
-[![Build Status](https://img.shields.io/travis/ICanBoogie/render-engine-markdown/master.svg)](http://travis-ci.org/ICanBoogie/render-engine-markdown)
+[![Build Status](https://img.shields.io/travis/ICanBoogie/render-engine-markdown.svg)](http://travis-ci.org/ICanBoogie/render-engine-markdown)
 [![HHVM](https://img.shields.io/hhvm/icanboogie/render-engine-markdown.svg)](http://hhvm.h4cc.de/package/icanboogie/render-engine-markdown)
-[![Code Quality](https://img.shields.io/scrutinizer/g/ICanBoogie/render-engine-markdown/master.svg)](https://scrutinizer-ci.com/g/ICanBoogie/render-engine-markdown)
-[![Code Coverage](https://img.shields.io/coveralls/ICanBoogie/render-engine-markdown/master.svg)](https://coveralls.io/r/ICanBoogie/render-engine-markdown)
+[![Code Quality](https://img.shields.io/scrutinizer/g/ICanBoogie/render-engine-markdown.svg)](https://scrutinizer-ci.com/g/ICanBoogie/render-engine-markdown)
+[![Code Coverage](https://img.shields.io/coveralls/ICanBoogie/render-engine-markdown.svg)](https://coveralls.io/r/ICanBoogie/render-engine-markdown)
 [![Packagist](https://img.shields.io/packagist/dt/icanboogie/render-engine-markdown.svg)](https://packagist.org/packages/icanboogie/render-engine-markdown)
 
 A Markdown render engine for [ICanBoogie/Render].
@@ -74,8 +74,8 @@ with the `make clean` command.
 
 The package is continuously tested by [Travis CI](http://about.travis-ci.org/).
 
-[![Build Status](https://img.shields.io/travis/ICanBoogie/render-engine-markdown/master.svg)](https://travis-ci.org/ICanBoogie/render-engine-markdown)
-[![Code Coverage](https://img.shields.io/coveralls/ICanBoogie/render-engine-markdown/master.svg)](https://coveralls.io/r/ICanBoogie/render-engine-markdown)
+[![Build Status](https://img.shields.io/travis/ICanBoogie/render-engine-markdown.svg)](https://travis-ci.org/ICanBoogie/render-engine-markdown)
+[![Code Coverage](https://img.shields.io/coveralls/ICanBoogie/render-engine-markdown.svg)](https://coveralls.io/r/ICanBoogie/render-engine-markdown)
 
 
 
@@ -89,6 +89,6 @@ The package is continuously tested by [Travis CI](http://about.travis-ci.org/).
 
 
 
-[documentation]:               https://icanboogie.org/api/render-engine-markdown/master/
+[documentation]:               https://icanboogie.org/api/render-engine-markdown/0.2/
 [ICanBoogie]:                  https://icanboogie.org
 [ICanBoogie/Render]:           https://github.com/ICanBoogie/Render
