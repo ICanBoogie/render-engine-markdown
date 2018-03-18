@@ -4,7 +4,7 @@ namespace ICanBoogie;
 
 use ICanBoogie\Render\Renderer;
 
-class TestIntegration extends \PHPUnit_Framework_TestCase
+class TestIntegration extends \PHPUnit\Framework\TestCase
 {
 	public function test_md_file_should_be_render()
 	{
