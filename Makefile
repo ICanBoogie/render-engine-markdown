@@ -1,7 +1,6 @@
 # customization
 
 PACKAGE_NAME = icanboogie/render-engine-markdown
-PACKAGE_VERSION = 0.3
 PHPUNIT = vendor/bin/phpunit
 
 # do not edit the following lines
@@ -23,12 +22,12 @@ test: test-dependencies
 	@$(PHPUNIT)
 
 .PHONY: test-coverage
-test-coverage: test-dependencies
+test-coverage: test-dependencies xdebug-disable
 	@mkdir -p build/coverage
-	@XDEBUG_MODE=coverage $(PHPUNIT) --coverage-html ../build/coverage
+	@XDEBUG_MODE=coverage $(PHPUNIT) --coverage-html ../build/coverage --coverage-text
 
 .PHONY: test-coveralls
-test-coveralls: test-dependencies
+test-coveralls: test-dependencies xdebug-disable
 	@mkdir -p build/logs
 	@$(PHPUNIT) --coverage-clover ../build/logs/clover.xml
 
