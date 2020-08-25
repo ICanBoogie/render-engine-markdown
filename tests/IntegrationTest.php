@@ -3,8 +3,9 @@
 namespace ICanBoogie;
 
 use ICanBoogie\Render\Renderer;
+use PHPUnit\Framework\TestCase;
 
-class TestIntegration extends \PHPUnit\Framework\TestCase
+class TestIntegration extends TestCase
 {
 	public function test_md_file_should_be_render()
 	{
