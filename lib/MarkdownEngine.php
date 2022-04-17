@@ -12,6 +12,7 @@
 namespace ICanBoogie\Render;
 
 use Parsedown;
+
 use function file_get_contents;
 use function ICanBoogie\normalize;
 use function preg_replace_callback;
@@ -20,25 +21,23 @@ use function strip_tags;
 /**
  * Renders Markdown.
  */
-class MarkdownEngine implements Engine
+final class MarkdownEngine implements Engine
 {
 	/**
 	 * @inheritdoc
 	 */
-	public function __invoke($template_pathname, $thisArg, array $variables, array $options = []): string
+	public function render(string $template_pathname, mixed $content, array $variables): string
 	{
 		$markdown = file_get_contents($template_pathname);
 		$html = Parsedown::instance()->parse($markdown);
-		$html = $this->create_anchors($html);
 
-		return $html;
+		return $this->create_anchors($html);
 	}
 
 	private function create_anchors(string $html): string
 	{
 		return preg_replace_callback('#<h(\d)>(.+)</h#', function (array $matches) {
-
-			list( , $level, $title) = $matches;
+			[ , $level, $title] = $matches;
 
 			$id = normalize(strip_tags($title));
 

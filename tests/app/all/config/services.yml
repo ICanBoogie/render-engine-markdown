@@ -1,0 +1,5 @@
+parameters:
+  render.engine.mapping:
+    '.php': ICanBoogie\Render\PHPEngine
+    '.phtml': ICanBoogie\Render\PHPEngine
+    '.md': ICanBoogie\Render\MarkdownEngine

@@ -1,0 +1,3 @@
+services:
+  ICanBoogie\Render\MarkdownEngine:
+    tags: [ render.engine ]
