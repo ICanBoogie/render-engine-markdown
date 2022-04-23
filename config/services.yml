@@ -1,3 +1,5 @@
 services:
   ICanBoogie\Render\MarkdownEngine:
-    tags: [ render.engine ]
+    tags:
+    - { name: render.engine }
+    - { name: render.extension, extension: '.md' }
